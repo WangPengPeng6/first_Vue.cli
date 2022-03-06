@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h2>学校名称：{{ name }}</h2>
+  <div class="school">
+    <h2>学校的名称：{{ name }}</h2>
     <h2>学校地址：{{ address }}</h2>
   </div>
 </template>
@@ -11,11 +11,14 @@ export default {
   data() {
     return {
       name: "商丘工学院",
-      address: "商丘",
+      address: "221",
     };
   },
 };
 </script>
 
-<style scoped>
+<style>
+.school {
+  background-color: pink;
+}
 </style>
